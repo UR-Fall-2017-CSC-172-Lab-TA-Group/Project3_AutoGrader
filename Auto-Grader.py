@@ -50,6 +50,10 @@ for currentFile in list_files:
         # If both files are identical, give full credit
         if (output_pic.__contains__('identical')):
             grade += 100
+        # Ignore the newline at the end of file issue
+        elif (output_pic.__contains__('newline at end of file')):
+            grade += 100
+
         # If both files are not identical, check if frequency table is correct. If so, give partial credit
 
         else:
