@@ -5,7 +5,7 @@ Created on Nov. 16, 2017
 Last Modification on Nov. 18, 2017
 
 
-***************** DESCRIPTION ******************
+## DESCRIPTION 
 
 This program automatically grades student submissions for project 3 of CSC-172 Data Structures and Algorithms on Huffman encoding and decoding. The python script takes zipped submission files from BlackBoards, uncompressed them, and then test their code. 
 
@@ -14,13 +14,17 @@ The testing is done by directing students' code to encode and decode a picture u
 Finally, the grades are recoded in a text file.
 
 
-***************** FILES *********************
+## Files
 
 *) Auto-Grader.py
 	Python Script that conducts the grading
  
 *) GradeBook.txt
 	Text file used for recording grades
+
+*) rename.sh
+	Shell script to replace spaces in downloaded submission to underscores
+	If terminal says permission denied, use `> chmod +x rename.sh` to give permission
 
 *) Materials
 
@@ -44,7 +48,7 @@ Finally, the grades are recoded in a text file.
 		text file with expected output for the frequency table of the picture used for the test
 		
 
-***************** HOW TO RUN ***************** 
+## HOW TO RUN 
 
 1) Get zipped submission files from BlackBoard's Assignment File Download option into the root of the AutoGrade directory.
 
@@ -55,7 +59,7 @@ Finally, the grades are recoded in a text file.
 Note: Erase all content of GradeBook.txt before each run
 
 
-***************** INPUT FORMAT *****************
+## INPUT FORMAT
 
 Input will be zipped submission files from BlackBoard's Assignment File Download option in the root of the AutoGrade directory.  
 
@@ -72,7 +76,7 @@ Breaking its name down by underscores, form left to right, its components are:
 5) Date and Time of submission
 6) Name of directory zipped into the file
 
-***************** OUTPUT FORMAT **************** 
+## OUTPUT FORMAT
 
 Output will be recorded in GradeBook.txt. This text file will have two columns of information:
 
@@ -83,7 +87,7 @@ Ex: Student with NetID jdoe10 scores a grade of 100 points, output will look as 
 	
 	jdoe10		100
 
-***************** SAMPLE INPUT **************** 
+## SAMPLE INPUT 
 
 Five sample zipped submission files are provided here:
 
