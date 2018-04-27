@@ -19,3 +19,8 @@ echo "ur.jpg"
 wc -c < ur.jpg
 echo "Encoded Nipple of Knowledge"
 wc -c < ur.e
+
+echo "Clears *.class files"
+rm *.class
+
+echo "Done"
