@@ -1,8 +1,12 @@
 javac HuffmanSubmitTest.java
 java HuffmanSubmitTest
 
+echo "Diff alice"
 diff alice30.txt alice30dec.txt
+echo "Diff nipple of knowledge"
 diff ur.jpg ur_decode.jpg
+echo "Diff done"
+echo ""
 
 echo "Byte Counts: "
 
